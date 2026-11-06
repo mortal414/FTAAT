@@ -1,12 +1,13 @@
-# Second-edition film
+# Saved second-edition film source
+
+This is retained material from my GPT Learning video experiment, not an active series or publication plan.
 
 An original filing-office comedy built from audited experiment results. Pip is an
 original paper clerk. No footage, artwork, narration, music, or character from
 Numberphile or 3Blue1Brown is copied or imitated. Cedar narrates; Onyx voices Pip.
 Both are disclosed stock AI voices. Sound cues are original NumPy synthesis.
 
-The user meant more thought about entertaining production, not increased reasoning
-on the models under test. The experiment retains its configured model settings.
+The experiment retains its recorded model settings.
 
 ## Build
 
@@ -44,5 +45,4 @@ shots without another video generation loss. Final AAC audio is normalized to
 approximately −16 LUFS with headroom for true peaks.
 
 The original film and all first-edition ledgers are retained. The new output is
-`artifacts/episode-01-v2/GPT-Learning-01-v2.mp4`. YouTube publishing is left to the
-user. Public GitHub release assets contain experiment evidence, not the video.
+`artifacts/episode-01-v2/GPT-Learning-01-v2.mp4`. There is no ongoing YouTube publication plan. Public GitHub release assets contain experiment evidence, not the video.

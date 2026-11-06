@@ -1,4 +1,6 @@
-# GPT Learning — Episode 01
+# GPT Learning: saved video treatment
+
+I kept this treatment from a one-off video idea. It did not become an ongoing series, and the production steps below are historical plans, not current commitments.
 
 Working title: **We gave AI a bigger desk. It still lost the paperwork.**
 Alternative if models ace the tests: **We tried to make AI lose one fact. Our test broke first.**
@@ -50,7 +52,7 @@ with a suitably licensed voice, actual data charts, audio mix, subtitles and vis
 
 Proposed channel name: GPT Learning, an independent experiment channel, not affiliated
 with OpenAI or Anthropic. No channel account has been created or upload attempted yet.
-Use the user's intended signed-in account when ready; identify it before creation.
+No account creation or publication is planned as part of maintaining this repository.
 
 ## Release checks
 

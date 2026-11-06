@@ -1,24 +1,24 @@
-> **Historical documentation:** the paid notebook runner is retired. See [current methodology](methodology.md) and [repository README](../ReadME.md) for the supported workflow and corrected token/scoring claims.
+# FTAAT documentation
 
-# FTAAT Documentation Hub
+This is a saved personal experiment, not an actively maintained benchmark or video series. Start with the [project README](../ReadME.md) for its status.
 
-Welcome to the documentation for the Fixed Token Abstract Attention Test (FTAAT) benchmark. The project evaluates large language models on an abstract key–value memorisation task while tightly controlling token usage. Use the guides below to understand the benchmark design, run experiments, integrate providers, and analyse results.
+## Experiment records
 
-## 📚 Documentation map
+- [Methodology and limits](methodology.md)
+- [September 2026 second-edition report](episodes/01-v2/report.md)
+- [Second-edition protocol](episodes/01-v2/PROTOCOL.md)
+- [Earlier report](episodes/01/report.md)
 
-- [Benchmark design](benchmark_design.md)
+The tasks compare delivered answers on synthetic records. They do not measure internal attention weights, general intelligence, or a universal memory limit. Task symbols and model tokens are different: joining individually single-token strings can change tokenization.
+
+## Older notebook documentation
+
+The paid notebook runner is retired. These pages explain the earlier code and should not be treated as a supported live-run workflow:
+
+- [Original design and its limitations](benchmark_design.md)
 - [Experiment pipeline](pipeline.md)
 - [Provider integrations](providers.md)
 - [Notebooks guide](notebooks.md)
 - [Results and data management](results_management.md)
 
-## Why token-consistent benchmarking?
-
-FTAAT creates synthetic key→value pairs constructed from single-token symbols. By controlling both the number of facts ($N$) and the length of each key/value sequence ($K$), the benchmark separates two difficulty axes:
-
-1. **Memory load** — how many distinct associations the model must recall (increasing $N$).
-2. **Key complexity** — how many tokens must be matched per association (increasing $K$).
-
-Because the same symbol inventory is used to build prompts and references, the experiments expose a clean failure curve that is not confounded by variations in tokenisation.
-
-Each detailed guide links back to the Python modules, scripts, and notebooks that implement these ideas. Start with the [benchmark design](benchmark_design.md) to understand the underlying theory, then follow the [pipeline walkthrough](pipeline.md) to run your own evaluations.
+Use the saved reports and methodology for corrected token counting and scoring. Historical notebook results are not pooled with the later experiments.
