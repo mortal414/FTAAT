@@ -1,28 +1,33 @@
 # ContextFrontier / FTAAT
 
-Reproducible games that probe where language models lose track of supplied information.
-Built from the **Fixed Token Abstract Attention Test (FTAAT)**, now being prepared for
-an original educational video series, **GPT Learning**.
+Small, reproducible games for exploring how language models handle supplied information.
 
-**Episode 01, second edition:** 810 substantive responses across four configured
-models, plus 16 separate smoke checks. The new prespecified long-context comparison
+I built this as a personal experiment around the **Fixed Token Abstract Attention Test (FTAAT)**.
+I also tried turning the results into a video under the working title **GPT Learning**,
+but that did not become an ongoing series.
+
+**Status:** I keep this here as a hobby-project snapshot. I'm not currently using or developing it.
+
+## Saved experiment results
+
+**Recorded experiment, second edition (September 2026):** 810 substantive responses across four configured
+models, plus 16 separate smoke checks. The prespecified long-context comparison
 produced **GPT-4o Mini 2/32 versus GPT-5.6 Luna 32/32**, with GPT-4.1 Mini at 31/32,
 at roughly 111,000 input tokens. Claude Haiku receives a clearly labeled smaller
 retrieval panel and the full paired formatting experiment.
 
-[Read the new report](docs/episodes/01-v2/report.md),
+[Read the saved report](docs/episodes/01-v2/report.md),
 [inspect the frozen protocol](docs/episodes/01-v2/PROTOCOL.md), and
-[download the complete evidence](https://github.com/MarcoBetti1/FTAAT/releases/tag/episode-01-v2).
-The [original animated film source](video/v2/README.md) gives Pip a filing office,
-two stock voices, and an increasingly awkward performance review. Video publishing
-is handled by the channel owner.
+[download the complete evidence](https://github.com/mortal414/FTAAT/releases/tag/episode-01-v2).
+The [animated film source](video/v2/README.md) is retained from that video experiment.
+It is not a release schedule or a promise of more episodes.
 
 This is a synthetic task comparison, not a general intelligence ranking. Exact
 delivery and a predeclared final-line answer score are reported separately. All
 requests, model-specific usage, uncertainty, and paired reminder outcomes remain
 auditable. [Edition one](docs/episodes/01/report.md) and its
-[evidence](https://github.com/MarcoBetti1/FTAAT/releases/tag/episode-01) are retained
-unchanged and are not pooled into this new experiment.
+[evidence](https://github.com/mortal414/FTAAT/releases/tag/episode-01) are retained
+unchanged and are not pooled into the second-edition experiment.
 
 ## Run locally
 
@@ -105,10 +110,10 @@ Historical results need re-auditing and are not mixed into new experiments.
 
 `docs/audits/historical-environment.txt` records the former environment as an
 audit artifact, not an installation manifest. Those old pins contain known vulnerabilities. Optional notebook dependencies are available through `.[legacy]`.
-DeepSeek and Ollama adapters are historical, unverified integrations, outside this
-first OpenAI/Anthropic episode.
+DeepSeek and Ollama adapters are historical, unverified integrations, outside the
+recorded OpenAI/Anthropic experiment.
 
-## Development
+## Development commands
 
 ```bash
 pip install -e '.[dev,video]'
@@ -121,7 +126,7 @@ lock implementation before live use. Packaging is local; no PyPI release is clai
 No license was present in the original repository; no new open-source license has
 been selected. GitHub visibility is preserved.
 
-## Reproduce the episode analysis
+## Reproduce the saved analysis
 
 Extract the release evidence archive into this repository, then run:
 
